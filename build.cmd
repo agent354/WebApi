@@ -4,10 +4,7 @@ if "%config%" == "" (
    set config=Release
 )
  
-set version=6.0.0-beta8-16000
-if not "%PackageVersion%" == "" (
-   set version=%PackageVersion%
-)
+
 
 set nuget=
 if "%nuget%" == "" (
@@ -20,4 +17,3 @@ mkdir Build
 mkdir Build\lib
 mkdir Build\lib\net40
 
-%nuget% pack "vNext\Microsoft.AspNet.OData.6.0.0-beta8.nuspec" -NoPackageAnalysis -verbosity detailed -o Build -Version %version% -p Configuration="%config%"

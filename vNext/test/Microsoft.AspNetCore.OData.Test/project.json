@@ -1,10 +1,9 @@
 ﻿{
   "dependencies": {
-    "Microsoft.AspNetCore.OData": "6.0.0-*",
-    "xunit": "2.1.0"
+    "Microsoft.AspNetCore.OData": "6.0.0-*"
   },
 
-  "testRunner": "xunit",
+
 
   "frameworks": {
     "net452": { }

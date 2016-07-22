@@ -11,7 +11,7 @@
   },
 
   "frameworks": {
-    "net451": {
+    "net452": {
       "frameworkAssemblies": {
         "System.ComponentModel.DataAnnotations": "4.0.0.0",
         "System.Runtime.Serialization": "4.0.0.0",

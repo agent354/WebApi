@@ -4,6 +4,10 @@ if "%config%" == "" (
    set config=Release
 )
  
+set version=6.0.0-beta8-16000
+if not "%PackageVersion%" == "" (
+   set version=%PackageVersion%
+)
 
 
 set nuget=

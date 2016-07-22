@@ -23,6 +23,8 @@ Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ResxGenerator", "tools\Resx
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ODataSample.Web", "samples\ODataSample.Web\ODataSample.Web.xproj", "{46706CA6-2056-4355-B672-3E7C80D4CBF4}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Microsoft.AspNetCore.OData.Test", "test\Microsoft.AspNetCore.OData.Test\Microsoft.AspNetCore.OData.Test.xproj", "{0B959ACA-F82B-43C4-946A-39066B4FA8C3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -38,9 +40,11 @@ Global
 		{DACCD7F1-5E28-4AFF-BBA9-CB42F892A20C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DACCD7F1-5E28-4AFF-BBA9-CB42F892A20C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{46706CA6-2056-4355-B672-3E7C80D4CBF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{46706CA6-2056-4355-B672-3E7C80D4CBF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46706CA6-2056-4355-B672-3E7C80D4CBF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46706CA6-2056-4355-B672-3E7C80D4CBF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B959ACA-F82B-43C4-946A-39066B4FA8C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B959ACA-F82B-43C4-946A-39066B4FA8C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B959ACA-F82B-43C4-946A-39066B4FA8C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -49,5 +53,6 @@ Global
 		{391207F8-D7ED-4233-BAD9-ABBFF700B71C} = {3E55571F-8E8F-448A-ACE8-63849EE0871F}
 		{DACCD7F1-5E28-4AFF-BBA9-CB42F892A20C} = {31922483-4CE7-4B02-88E4-EAF27D5E941B}
 		{46706CA6-2056-4355-B672-3E7C80D4CBF4} = {CDB37674-D801-412C-9B1A-2103A114D41B}
+		{0B959ACA-F82B-43C4-946A-39066B4FA8C3} = {CB7EBE84-3A72-454A-BDFF-C2A604A98C11}
 	EndGlobalSection
 EndGlobal
